@@ -30,28 +30,48 @@
             </button>
         </form>
         <div class="row">
-            <div class="col-7">
+            <div class="col-7 ">
                 <h1 id="city"></h1>
-                <ul class="list-unstyled ">
+                <ul class="list-unstyled details ">
                     <li id="exactDay"></li>
                     <li id="description"></li>
-                </ul>
-                <div class="float-left">
-                    <span class="emoji" id="emoji"></span>
-                    <span class="temperature" id="temperature"></span>
-                    <span class="unit">°C</span>
-
-                </div>
-            </div>
-            <div class="col-5 p-3">
-                <ul class="HD list-unstyled ">
                     <li>Humidity: <span id="humidity"></span>%</li>
                     <li>Wind: <span id="wind"></span> km/h</li>
+
                 </ul>
+
+
+
+            </div>
+            <div class="col-5 p-3">
+                <div>
+                    <img id="emoji" src="">
+                    <span id="temperature"></span>
+                    <span class="unit">
+                        <a class="text-decoration-none " id="Celsius" href="#">°C </a>
+                        |
+                        <a class="text-decoration-none " id="Fahrenheits" href="#">°F</a>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
             </div>
         </div>
     </div>
+
+
+    <footer class="openSource"><a href="https://github.com/EstherMogFin/WeatherApp.git" target="_blank">Open source
+            code</a>by Esther
+        Mogollon</footer>
     <script src="src/index.js"></script>
+
 </body>
 
 </html>

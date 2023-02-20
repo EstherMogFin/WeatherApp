@@ -6,42 +6,34 @@ body {
   margin: 100px auto;
   max-width: 800px;
   background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
+    circle at 10% 20%,
+    rgb(251, 222, 238) 15.6%,
+    rgb(206, 201, 226) 80.3%
   );
   padding: 20px;
   border-radius: 10px;
 }
 h1 {
   color: #2f3641;
-  position: relative;
-  right: 25px;
   font-family: aboreto;
   font-size: 700;
-  margin: 30px;
+}
+.details {
+  color: #2f36419b;
+  font-size: 12px;
 }
 
-.temperature {
+#temperature {
   font-size: 50px;
   font-family: aboreto;
   font-size: 700;
 }
 .unit {
   position: relative;
-  bottom: 10px;
+  bottom: 20px;
+  font-size: 20px;
 }
-.HD {
-  position: relative;
-  top: 50px;
-  left: 50px;
-}
-.emoji {
-  font-size: 40px;
-}
+
 #theme-button {
   display: block;
   margin: 10px auto;
@@ -57,14 +49,22 @@ h1 {
   );
 }
 .dark h1 {
-  color: gainsboro;
+  color: rgb(201, 205, 218);
 }
-.dark .temperature {
-  color: gainsboro;
+.dark #temperature {
+  color: rgb(201, 205, 218);
 }
 .dark ul {
-  color: gainsboro;
+  color: rgb(201, 205, 218);
 }
 .dark .unit {
-  color: gainsboro;
+  color: rgb(201, 205, 218);
+}
+footer {
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+}
+.dark footer {
+  color: rgb(201, 205, 218);
 }

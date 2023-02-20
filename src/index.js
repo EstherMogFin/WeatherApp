@@ -26,18 +26,10 @@ function showWeather(response) {
   humidity.innerHTML = response.data.main.humidity;
   wind.innerHTML = Math.round(response.data.wind.speed);
   description.innerHTML = response.data.weather[0].main;
-  switch (response.data.weather[0].main) {
-    case "Clear":
-      emoji.innerHTML = "🌞";
-      break;
-    case "Clouds":
-      emoji.innerHTML = "☁️";
-      break;
-    case "Rain":
-      emoji.innerHTML = "⛈️☔";
-    case "Fog":
-      emoji.innerHTML = "🌫	";
-  }
+  emoji.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 function search(city) {
