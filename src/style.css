@@ -15,22 +15,29 @@ body {
 }
 h1 {
   color: #2f3641;
-  font-family: aboreto;
-  font-size: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 400;
 }
 .details {
   color: #2f36419b;
   font-size: 12px;
 }
+#emoji {
+  position: relative;
+  bottom: 15px;
+  left: 50px;
+}
 
 #temperature {
-  font-size: 50px;
-  font-family: aboreto;
-  font-size: 700;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left: 50px;
 }
 .unit {
   position: relative;
   bottom: 20px;
+  left: 50px;
   font-size: 20px;
 }
 
