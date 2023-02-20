@@ -1,0 +1,41 @@
+body {
+  margin: auto;
+  color: #fffafa;
+}
+#weather-app {
+  margin: 100px auto;
+  max-width: 600px;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  padding: 20px;
+  border-radius: 10px;
+}
+h1 {
+  color: #5c636e;
+  position: relative;
+  right: 40px;
+  font-family: aboreto;
+  font-size: 700;
+  margin: 30px;
+}
+
+.temperature {
+  font-size: 50px;
+  font-family: aboreto;
+  font-size: 700;
+}
+.unit {
+  position: relative;
+  bottom: 10px;
+}
+.HD {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
