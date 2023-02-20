@@ -4,7 +4,7 @@ body {
 }
 #weather-app {
   margin: 100px auto;
-  max-width: 600px;
+  max-width: 800px;
   background: radial-gradient(
     328px at 2.9% 15%,
     rgb(191, 224, 251) 0%,
@@ -17,9 +17,9 @@ body {
   border-radius: 10px;
 }
 h1 {
-  color: #5c636e;
+  color: #2f3641;
   position: relative;
-  right: 40px;
+  right: 25px;
   font-family: aboreto;
   font-size: 700;
   margin: 30px;
@@ -38,4 +38,33 @@ h1 {
   position: relative;
   top: 50px;
   left: 50px;
+}
+.emoji {
+  font-size: 40px;
+}
+#theme-button {
+  display: block;
+  margin: 10px auto;
+}
+.dark {
+  background: rgb(12, 11, 20);
+}
+.dark #weather-app {
+  background: radial-gradient(
+    circle at -4% -12.9%,
+    rgb(74, 98, 110) 0.3%,
+    rgb(30, 33, 48) 90.2%
+  );
+}
+.dark h1 {
+  color: gainsboro;
+}
+.dark .temperature {
+  color: gainsboro;
+}
+.dark ul {
+  color: gainsboro;
+}
+.dark .unit {
+  color: gainsboro;
 }

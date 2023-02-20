@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <button type="button" class="btn btn-outline-dark themeButton" id="theme-button">Change Theme</button>
     <div class="container" id="weather-app">
         <form class="d-flex p-4" role="search" id="country-form">
             <input id="country-input" class="form-control me-2" type="search" placeholder="Enter your country"
@@ -30,19 +31,20 @@
         </form>
         <div class="row">
             <div class="col-7">
-                <h1 class="text-dark" id="city"></h1>
-                <ul class="list-unstyled text-secondary">
+                <h1 id="city"></h1>
+                <ul class="list-unstyled ">
                     <li id="exactDay"></li>
-
                     <li id="description"></li>
                 </ul>
                 <div class="float-left">
-                    <span class="temperature text-dark" id="temperature"></span>
-                    <span class="unit text-secondary">°C</span>
+                    <span class="emoji" id="emoji"></span>
+                    <span class="temperature" id="temperature"></span>
+                    <span class="unit">°C</span>
+
                 </div>
             </div>
             <div class="col-5 p-3">
-                <ul class="HD list-unstyled text-secondary">
+                <ul class="HD list-unstyled ">
                     <li>Humidity: <span id="humidity"></span>%</li>
                     <li>Wind: <span id="wind"></span> km/h</li>
                 </ul>
