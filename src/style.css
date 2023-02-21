@@ -47,6 +47,11 @@ ul {
   bottom: 20px;
   font-size: 20px;
 }
+.weather-forecast {
+  font-family: "Poppins", sans-serif;
+  color: #2f3641db;
+  font-weight: bold;
+}
 footer {
   text-align: center;
   position: relative;
@@ -82,5 +87,8 @@ footer {
   color: rgb(201, 205, 218);
 }
 .dark footer {
+  color: rgb(201, 205, 218);
+}
+.dark .weather-forecast {
   color: rgb(201, 205, 218);
 }
