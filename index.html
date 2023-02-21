@@ -16,59 +16,57 @@
 </head>
 
 <body>
-    <button type="button" class="btn btn-outline-dark themeButton" id="theme-button">Change Theme</button>
+    <button type="button" class="btn btn-outline-dark" id="theme-button">Change Theme</button>
     <div class="container" id="weather-app">
         <form class="d-flex p-4" role="search" id="country-form">
-            <input id="country-input" class="form-control me-2" type="search" placeholder="Enter your country"
+            <input id="country-input" class="form-control me-1" type="search" placeholder="Enter your country"
                 aria-label="Search" />
-            <button id="search" class="btn btn-outline-success" type="submit">
+            <button id="search" class="btn btn-outline-primary" type="submit">
                 Search
             </button>
-            <button id="current" class="btn btn-outline-success mx-3" type="submit">
+            <button id="current" class="btn btn-outline-primary mx-2" type="submit">
                 current
             </button>
         </form>
         <div class="row">
-            <div class="col-6 ">
+
+            <div class="col-12 text-center ">
                 <h1 id="city"></h1>
+
+                <div class="humidityWind">
+                    💧:<span id="humidity"></span>%
+                    🌬: <span id="wind"></span> km/h
+                </div>
+
+                <img id="emoji" src="">
+                <span id="temperature"></span>
+                <span class="unit ">
+                    <a class="text-decoration-none text-secondary" id="celsius" href="#">°C </a>
+                    |
+                    <a class="text-decoration-none text-secondary " id="fahrenheits" href="#">°F</a>
+                </span>
                 <ul class="list-unstyled details ">
                     <li id="exactDay"></li>
                     <li id="description"></li>
-                    <li>Humidity: <span id="humidity"></span>%</li>
-                    <li>Wind: <span id="wind"></span> km/h</li>
-
                 </ul>
-
-
-
-            </div>
-            <div class="col-6 ">
-                <div>
-                    <img id="emoji" src="">
-                    <span id="temperature"></span>
-                    <span class="unit ">
-                        <a class="text-decoration-none text-secondary" id="celsius" href="#">°C </a>
-                        |
-                        <a class="text-decoration-none text-secondary " id="fahrenheits" href="#">°F</a>
-                    </span>
-                </div>
-
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-            </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
         </div>
     </div>
 
 
+
+
+
     <footer class="openSource"><a href="https://github.com/EstherMogFin/WeatherApp.git" target="_blank">Open source
-            code</a>by Esther
-        Mogollon</footer>
+            code</a>
+        by Esther Mogollon
+    </footer>
     <script src="src/index.js"></script>
 
 </body>
