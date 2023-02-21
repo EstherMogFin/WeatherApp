@@ -1,5 +1,5 @@
 body {
-  background-image: url(image/andrea-ferrario-3WgPZbsDSkE-unsplash.jpg);
+  background-image: url(/image/andrea-ferrario-3WgPZbsDSkE-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -54,7 +54,7 @@ footer {
 }
 
 .dark {
-  background-image: url(image/pexels-philippe-donn-1257860.jpg);
+  background-image: url(/image/pexels-philippe-donn-1257860.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
